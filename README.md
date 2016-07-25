@@ -2,7 +2,7 @@
 A database compactor for CouchDB servers
 
 ## Usage
-go run compactor.go -s http://localhost:6901 -u support -p 9ijnBGT
+go run compactor.go -s http://localhost:6901 -u admin -p p@ssw0rd
 
 ```
 ./go-couchdb-compactor-mac-386 --help
