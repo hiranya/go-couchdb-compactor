@@ -27,7 +27,7 @@ import (
 	"github.com/hiranya/goroutinepool"
 )
 
-var fServerURL = flag.String("s", "http://localhost:5984", "CouchDB server url. Defaults to http://localhost:5984")
+var fServerURL = flag.String("s", "http://localhost:5984", "CouchDB server url")
 var fConcurrency = flag.Int("c", 5, "Concurrency level required for compaction")
 var fUsername = flag.String("u", "", "Username to access the CouchDB server")
 var fPassword = flag.String("p", "", "Password to access the CouchDB server")
